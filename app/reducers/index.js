@@ -1,5 +1,6 @@
 
-const initialState = {}
+// const initialState = {}
+
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
