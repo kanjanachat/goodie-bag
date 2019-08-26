@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('../database');
 
-const Candies = db.define('candy', {
+module.exports = db.define('candy', {
   // define your model here!
   name: {
     type: Sequelize.TEXT,
@@ -26,4 +26,4 @@ const Candies = db.define('candy', {
   }
 });
 
-module.exports = Candies
+
